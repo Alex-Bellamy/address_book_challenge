@@ -1,0 +1,56 @@
+# Craft Academy Preparatory Course - Address Book
+[Deployed at Netlify](http://addressbook-alex.netlify.app) <br />
+[![Netlify Status](https://api.netlify.com/api/v1/badges/825d50f6-a606-4d24-83c5-d231a35ed764/deploy-status)](https://app.netlify.com/sites/addressbook-alex/deploys)
+
+## The Scenerio
+We've recently been contacted by a client, who would like us to build an address book so that they can manage their contacts.
+
+The features requested by the client include:
+```
+Ability to add new contacts
+View a list of existing contacts
+An appealing design that allows ease of navigation
+```
+## Learning Objectives
+<ul>
+<li> Advanced Javascript concepts and ES6+ Features
+<li> Persisting data using LocalStorage
+<li> Testing with Cypress
+<li> Introduction to BDD 
+<li> Practice Version Control using Git and GitHub
+<li> Deploying a static site to the web
+<li> User stories
+</ul>
+
+## Our user stories
+
+Create a new contact
+```
+As a user
+To stay in touch with my friends
+I would like to be able to create a contact for them in my address book
+```
+List contacts
+```
+As a user
+In order to contact my friends
+I would like to be able to view a list of my saved contacts
+```
+
+## Setup
+You can fork this repo to your own GitHub account or clone it directly to your local drive. 
+
+Install all packages by running the command:
+
+``` $ yarn ```
+
+Run the app in development mode:
+
+``` $ yarn start ```
+
+Start Cypress and run the tests:
+
+``` $ yarn cy:open ```
+
+## License
+This app is open source software [licensed as MIT](https://mit-license.org/).
